@@ -1,0 +1,65 @@
+# Ignore Android Studio specific files
+*.iml
+.gradle
+/local.properties
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Ignore Mac OS specific files
+.DS_Store
+
+# Ignore build output
+/build/
+/captures/
+/outputs/
+
+# Ignore native build output
+.externalNativeBuild/
+/.cxx/
+
+# Ignore generated files
+local.properties
+*.log
+*.hprof
+*.class
+*.apk
+*.ap_
+*.dex
+*.so
+*.o
+*.a
+
+# Ignore dependency caches
+/.gradle/
+/.idea
+
+# Ignore IntelliJ IDEA specific files
+.idea/
+
+# Ignore Keystore files (if you're using signing)
+*.jks
+*.keystore
+
+# Ignore Google Services files (if using Firebase/Google services)
+google-services.json
+app/google-services.json
+
+# Ignore crashlytics (if using Firebase Crashlytics)
+crashlytics.properties
+fabric.properties
+
+# Ignore Android Studio generated index directories
+/.idea/assetWizardSettings.xml
+/.idea/workspace.xml
+/.idea/modules.xml
+/.idea/caches/
+/.idea/libraries/
+
+# Ignore miscellaneous
+/captures/
+/.idea/
+/local.properties
